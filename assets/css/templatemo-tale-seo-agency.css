@@ -83,7 +83,9 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   /* overflow: hidden; */
 }
-
+body{
+  overflow-x: hidden;
+}
 a {
   text-decoration: none !important;
 }
