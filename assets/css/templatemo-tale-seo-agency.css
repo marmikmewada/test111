@@ -847,6 +847,9 @@ Banner Style
   height: 655px;
   z-index: -1;
 }
+#btn{
+  display: none;
+}
 
 .main-banner h6 {
   font-size: 20px;
@@ -914,7 +917,7 @@ Services Style
 }
 
 .services::before {
-  content: url(../images/newcat.jpg);
+  /* content: url(../images/solana.jpg); */
   top: 120px;
   left: 0;
   position: absolute;
@@ -1842,6 +1845,19 @@ body {
   }
   .main-banner {
     margin-top: 100px;
+  }
+  .main-banner:after {
+    /* content: url(../images/best.png);
+    top: -1px;
+    right: 0;
+    position: absolute;
+    width: 861px;
+    height: 746px;
+    z-index: -1; */
+    display: none;
+  }
+  #btn{
+    display: block;
   }
   .header-area .main-nav .nav li:nth-child(4) {
     padding-right: 0px !important;
