@@ -919,7 +919,7 @@ Services Style
 }
 
 .services::before {
-  /* content: url(../images/solana.jpg); */
+  /* content: url(../images/ssssss.jpg); */
   top: 120px;
   left: 0;
   position: absolute;
@@ -929,7 +929,7 @@ Services Style
 }
 
 .services::after {
-  /* content: url(../images/contact-left.jpg); */
+  /* content: url(../images/ssssss.jpg); */
   bottom: -150px;
   right: 0;
   -webkit-transform: scaleX(-1);
